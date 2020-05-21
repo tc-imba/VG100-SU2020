@@ -117,9 +117,16 @@ renderGameButton state =
 
                 Model.Paused ->
                     ( "Resume", Resume )
+        background =
+            case state of
+                 Model.Playing ->
+                     "#5f3445"
+                 _ ->
+                     "#34495f"
+
     in
     button
-        [ style "background" "#34495f"
+        [ style "background" background
         , style "border" "0"
         , style "bottom" "30px"
         , style "color" "#fff"
@@ -180,7 +187,7 @@ renderControlButton txt attrs =
          , style "display" "block"
          , style "float" "left"
          , style "font-family" "Helvetica, Arial, sans-serif"
-         , style "font-size" "24px"
+         , style "font-size" "30px"
          , style "font-weight" "300"
          , style "height" "60px"
          , style "line-height" "60px"
@@ -254,12 +261,13 @@ renderInfo state =
         [ Markdown.toHtml [] """
 elm-tetris is a Tetris game coded in [**Elm**](http://elm-lang.org/) language.
 
-          
 Inspired by the classic [**Tetris**](http://en.wikipedia.org/wiki/Tetris)
 game, the game can be played with a keyboard using the arrow keys,
 and on mobile devices using the buttons below.
 
 elm-tetris is a modified version of [**elm-flatris**](https://github.com/w0rm/elm-flatris). Beyond being ported to Elm 0.19.1, the code was cleaned up, and adjusted to fit VG100 needs.
+
+(changed)
 """
         ]
 

@@ -7037,7 +7037,7 @@ var $author$project$View$renderControlButton = F2(
 						A2($elm$html$Html$Attributes$style, 'display', 'block'),
 						A2($elm$html$Html$Attributes$style, 'float', 'left'),
 						A2($elm$html$Html$Attributes$style, 'font-family', 'Helvetica, Arial, sans-serif'),
-						A2($elm$html$Html$Attributes$style, 'font-size', '24px'),
+						A2($elm$html$Html$Attributes$style, 'font-size', '30px'),
 						A2($elm$html$Html$Attributes$style, 'font-weight', '300'),
 						A2($elm$html$Html$Attributes$style, 'height', '60px'),
 						A2($elm$html$Html$Attributes$style, 'line-height', '60px'),
@@ -7159,7 +7159,7 @@ var $author$project$View$renderInfo = function (state) {
 			]),
 		_List_fromArray(
 			[
-				A2($elm_explorations$markdown$Markdown$toHtml, _List_Nil, '\r\nelm-tetris is a Tetris game coded in [**Elm**](http://elm-lang.org/) language.\r\n\r\n          \r\nInspired by the classic [**Tetris**](http://en.wikipedia.org/wiki/Tetris)\r\ngame, the game can be played with a keyboard using the arrow keys,\r\nand on mobile devices using the buttons below.\r\n\r\nelm-tetris is a modified version of [**elm-flatris**](https://github.com/w0rm/elm-flatris). Beyond being ported to Elm 0.19.1, the code was cleaned up, and adjusted to fit VG100 needs.\r\n')
+				A2($elm_explorations$markdown$Markdown$toHtml, _List_Nil, '\r\nelm-tetris is a Tetris game coded in [**Elm**](http://elm-lang.org/) language.\r\n\r\nInspired by the classic [**Tetris**](http://en.wikipedia.org/wiki/Tetris)\r\ngame, the game can be played with a keyboard using the arrow keys,\r\nand on mobile devices using the buttons below.\r\n\r\nelm-tetris is a modified version of [**elm-flatris**](https://github.com/w0rm/elm-flatris). Beyond being ported to Elm 0.19.1, the code was cleaned up, and adjusted to fit VG100 needs.\r\n\r\n(changed)\r\n')
 			]));
 };
 var $author$project$View$renderCount = function (n) {
@@ -7189,6 +7189,13 @@ var $elm$html$Html$Events$onClick = function (msg) {
 		$elm$json$Json$Decode$succeed(msg));
 };
 var $author$project$View$renderGameButton = function (state) {
+	var background = function () {
+		if (state === 1) {
+			return '#5f3445';
+		} else {
+			return '#34495f';
+		}
+	}();
 	var _v0 = function () {
 		switch (state) {
 			case 2:
@@ -7205,7 +7212,7 @@ var $author$project$View$renderGameButton = function (state) {
 		$elm$html$Html$button,
 		_List_fromArray(
 			[
-				A2($elm$html$Html$Attributes$style, 'background', '#34495f'),
+				A2($elm$html$Html$Attributes$style, 'background', background),
 				A2($elm$html$Html$Attributes$style, 'border', '0'),
 				A2($elm$html$Html$Attributes$style, 'bottom', '30px'),
 				A2($elm$html$Html$Attributes$style, 'color', '#fff'),
