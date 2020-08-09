@@ -1,0 +1,8 @@
+filename,line,score,detail
+Model.elm,160-177,-1,hard-coded content
+,,,
+,,,
+,,,
+,,,
+other,,-1,code format is not consistent
+,,-2,some variables are abc-named

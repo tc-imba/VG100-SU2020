@@ -1,0 +1,25 @@
+filename,line,score,detail
+Skill.elm,14-34,-1,duplicate code
+View.elm,40-67,-1,duplicate code
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,-2,elm-stuff in git repo
+,,-1,part of code format is bad

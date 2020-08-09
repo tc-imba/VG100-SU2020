@@ -1,0 +1,26 @@
+filename,line,score,detail
+Main.elm,227-232,-1,hard-coded contents
+,259-502,-2,duplicate code and hard-coded contents
+,529-560,-1,"too many nested List.append, use ++ instead"
+,580-807,-2,duplicate code
+,894-1005,-1,duplicate code
+,1007-1117,-1,duplicate code
+,1173-1245,-1,duplicate code
+,1250-1303,-1,duplicate code
+,1428-1447,-1,duplicate code
+,1453-1460,-1,"too many if and else if, should use Type"
+,1506-1516,-1,"too many if and else if, should use Type"
+,1529-2002,-2,too long function with many duplicate code
+,2015-2136,-1,too long function
+,2140-2306,-1,too long function
+,2308-2336,-1,duplicate code
+,2627-2704,-1,duplicate code
+,2736-2740,-1,should define Type instead of using int
+,2719-2808,-1,duplicate code
+,,,
+,,,
+,,,
+,,,
+other,,-2,elm-stuff in git repo
+,,-5,all code in one file
+,,2,some comments found

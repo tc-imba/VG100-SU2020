@@ -1,0 +1,11 @@
+filename,line,score,detail
+Heros.elm,22-59,-1,hard coded contents
+Rule.elm,32-43,-1,duplicate code and hard coded
+Welcome.elm,35-37,-1,duplicate code
+,,,
+,,,
+,,,
+,,,
+other,,-2,elm-stuff in git repo
+,,-1,code format
+,,2,some documentations found

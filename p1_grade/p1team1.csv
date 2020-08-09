@@ -1,0 +1,10 @@
+filename,line,score,detail
+Model.elm,60-118,-1,duplicate code 
+,144-168,-1,hard-coded contents
+Update.elm,11-160,-1,too long function
+View.elm,420-447,-1,hard-coded contents
+,,,
+,,,
+,,,
+other,,-2,elm-stuff in git repo
+,,2,some documentations found

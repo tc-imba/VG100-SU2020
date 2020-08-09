@@ -1,0 +1,23 @@
+filename,line,score,detail
+Ball.elm,19-25,-1,should define Type instead of using int
+,114-128,-1,duplicate code
+,137-151,-1,duplicate code
+Block.elm,38-77,-1,should define Type instead of using int
+,116-204,-1,duplicate code and hard-coded contents
+Model.elm,192-220,-1,duplicate code
+Skill.elm,45-59,-1,duplicate code
+View.elm,65-135,-1,duplicate code
+,140-242,-1,duplicate code
+,265-348,-1,duplicate code
+,496-522,-1,hard-coded contents
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,2,some comments found

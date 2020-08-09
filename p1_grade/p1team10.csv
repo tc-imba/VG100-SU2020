@@ -1,0 +1,13 @@
+filename,line,score,detail
+View.elm,114-137,-1,duplicate code
+,199-233,,
+,751-781,-1,hard coded
+,880-1318,-3,too long function and code duplicate and too many ++
+Update.elm,15-360,-2,too long function and lack of usage of function
+,780-801,-2,usage of continuous if and duplicate code
+,808-830,,
+,948-965,,
+,,,
+,,,
+,,,
+other,,2,some documentations found

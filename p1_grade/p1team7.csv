@@ -1,0 +1,14 @@
+filename,line,score,detail
+Calculate.elm,7-21,-1,duplicate code
+Check.elm,14-89,-1,usage of unnecessary if
+,43-89,-1,duplicate code
+Dashboard.elm,70-79,-1,duplicate code
+Help.elm,51-234,-1,duplicate code
+Model.elm,170-175,-1,hard coded
+Update.elm,40-183,-1,too long function and hard coded
+,227-272,-1,usage of unnecessary if and coutinuous if and else if
+,223-539,-2,too long function and bad usage of let in
+View.elm,20-80,-1,duplicate code and too long function and some code should be replaced by functions
+,,,
+other,,2,some documentations found
+,,-2,build and elm-stuff in repo

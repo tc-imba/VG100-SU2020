@@ -1,0 +1,17 @@
+filename,line,score,detail
+Bricks.elm,108-181,-1,duplicate code
+,243-251,-1,too many ++ in string
+,257-291,-1,duplicate code
+Update.elm,102-117,-1,duplicate code and strange thing
+View.elm,229-268,-1,duplicate code
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,-5,the subproject code are all duplicate
+,,-2,assets mixed with source files
+,,-2,build folder in git repo (Envy/build)
+,,-1,variables names
+,,2,some comments found

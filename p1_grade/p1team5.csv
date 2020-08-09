@@ -1,0 +1,15 @@
+filename,line,score,detail
+Model.elm,128-163,-1,duplicate code
+,166-201,-1,duplicate code and usage of if instead of case
+,248-274,-2,duplicate code (same to the code in Update.elm) and hard coded
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,2,some documentations found
+,,-2,build and elm-stuff in repo
+,,-2,assets files are not in a separate directory

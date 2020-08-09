@@ -1,0 +1,14 @@
+filename,line,score,detail
+View.elm,129-130,-1,useless let in
+,149-215,-2,duplicate code and usage of consinuous if
+,312-404,-1,duplicate code and usage of consinuous if
+Subscriptions.elm,35-62,-1,duplicate code and usage of consinuous if
+Collision.elm,25-48,-1,duplicate code and usage of consinuous if
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,2,some documentations found
+,,-2,build and elm-stuff in repo
+,,-2,useless zip file in repo

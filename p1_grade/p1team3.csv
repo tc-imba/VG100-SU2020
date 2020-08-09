@@ -1,0 +1,13 @@
+filename,line,score,detail
+Block.elm,156-305,-2,hard coded
+,59-64,-1,useless let in
+Bob2.elm,23-125,-1,hard coded
+GameView.elm,52-188,-1,too long function
+Geometry.elm,198-227,-1,duplicate code
+,392-414,-1,duplicate code
+,422-427,-1,useless let in
+Store.elm,111-134,-1,duplicate code
+,200-246,,
+Update.elm,17-48,-1,duplicate code and usage of continuous if instead of case
+,,,
+other,,2,some documentations found

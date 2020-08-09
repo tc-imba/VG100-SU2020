@@ -1,0 +1,26 @@
+filename,line,score,detail
+P1team17.elm,162-177,-1,"too many if and else if, should use Type"
+,217-232,-1,should define Type instead of using int
+,233-248,-1,duplicate code
+,249-272,-1,duplicate code
+,389-412,-1,"too many if and else if, should use Type and function"
+,377-457,-1,too long function
+,477-625,-1,too long function
+,581-616,-1,duplicate code
+,,,
+P1team17map.elm,6-2358,-2,duplicate code and hard-coded content
+,,,
+P1team17set.elm,99-114,-1,should define Type instead of using int
+,145-199,-1,duplicate code
+,202-612,-2,too long function ans duplicate code
+,625-663,-1,should define Type instead of using int
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,-2,code format is bad
+,,-2,variable names are bad
+,,-3,almost all code in two files

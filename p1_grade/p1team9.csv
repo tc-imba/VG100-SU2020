@@ -1,0 +1,14 @@
+filename,line,score,detail
+Game.elm,220-342,-1,too long function
+Shape.elm,140-217,-1,duplicate code
+Update.elm,155-178,-1,duplicate code
+,194-347,-1,too long function
+View.elm,220-259,-1,duplicate code
+,297-319,-1,hard coded
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,2,some documentations found
+,,-2,bad code format

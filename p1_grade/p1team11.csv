@@ -1,0 +1,25 @@
+filename,line,score,detail
+Model.elm,597-677,-1,duplicate code and hard-coded contents
+StoryBoard.elm,183-216,-1,duplicate code and hard-coded contents
+Update.elm,227-332,-1,duplicate code
+,411-474,-1,duplicate code
+,681-695,-1,duplicate code
+View.elm,66-231,-1,duplicate code
+,262-336,-1,duplicate code
+,339-392,-1,duplicate code
+,645-913,-1,too long function and duplicate code
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,-2,elm-stuff in git repo
+,,-2,assets mixed with source files
+,,-1,too many undeleted code

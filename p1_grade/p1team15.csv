@@ -1,0 +1,24 @@
+filename,line,score,detail
+Animation.elm,213-215,-1,too many ++ in string
+Collide.elm,41-45,-1,too many ++ in string
+CreateShape.elm,30-39,-1,should define Type instead of using int
+,128-133,-1,should define Type instead of using int
+PreRender.elm,9-31,-1,duplicate code
+,88-109,-1,duplicate code
+,255-274,-1,duplicate code
+,397-429,-1,duplicate code
+,466-487,-1,duplicate code
+,516-548,-1,duplicate code
+,668-691,-1,duplicate code
+StoreOperation.elm,26-93,-1,duplicate code
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+other,,-2,elm-stuff in git repo
+,,-1,part of code format is bad
