@@ -45,7 +45,7 @@ def main(repo):
 
             if score > 0:
                 code_quality_info += '%d point(s) {\\color{red}bonus}, %s' % (score, description)
-            else:
+            elif score < 0:
                 code_quality_info += '%d point(s) {\\color{red}deduction}, %s' % (-score, description)
 
             code_quality_score += score

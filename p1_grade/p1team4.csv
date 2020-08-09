@@ -12,6 +12,6 @@ View.elm,229-268,-1,duplicate code
 ,,,
 other,,-5,the subproject code are all duplicate
 ,,-2,assets mixed with source files
-,,-2,build folder in git repo (Envy/build)
+,,0,build folder in git repo (Envy/build)
 ,,-1,variables names
 ,,2,some comments found
